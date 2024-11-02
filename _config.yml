@@ -53,10 +53,10 @@ googlescholar_username:
 about_profile_image: /images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   웹/앱 서비스 백엔드 개발 및 언론 도메인 개발자로서의 다양한 경험이 있습니다. PHP, Java, Laravel, SpringBoot, MySQL, Redis, RabbitMQ, AWS, NCP, Git, Linux, Docker 등을 사용하여 프로덕션 서비스를 설계, 개발, 운영한 경험으로 확장성과 유지 보수성이 높은 백엔드 아키텍처와 패턴, 비지니스 로직 작성을 위해 언제나 고민하고 있습니다.
-  <br/>
+  <br/><br/>
 
   지금까지 최소 DAU 5천 이상, 최대 일 PV 1000만 이상 규모의 언론 매체 서비스에서 백엔드 개발 및 인프라 구축, DB 설계 등을 작업했습니다. 30개 이상의 웹 프로덕션 서비스를 개발하며 RestAPI, 기능 구현, 성능 최적화 작업, 레거시 시스템의 유지보수, 고도화를 통한 From PHP Legacy To Java Spring 마이그레이션 등 다양한 경험을 가지고 있습니다.
-  <br/>
+  <br/><br/>
   
   팀의 효율적인 업무 생산성을 위해 모두가 하고 싶어 하는 일과 기피하는 일을 가리지 않고 주도적으로 업무를 수행합니다. 조직의 업무 효율성을 높이고, 유연한 구조의 품질 높은 소프트웨어를 만들어 궁극적으로 사용자의 행복에 기여하고자 합니다. 지속적인 학습과 경험을 통해 업무 효율성을 극대화하고 시스템 가용성을 높이는 데 전념하고 있습니다.
   <br/><br/><br/>
@@ -75,7 +75,8 @@ content:
         description: | # this will include new lines to allow paragraphs
           - 조회수 측정 데이터의 결점을 파악하여 데이터 무결성을 위한 뉴스 조회수 기능 개선 (RDB -> Redis & Batch)
           - 주식 방송 서비스 고도화 진행중 (Legacy PHP -> Spring Boot & NodeJS)
-          - 다수의 CMS RestAPI 리팩토링 진행중 (각각 구성된 프로젝트 -> Spring Cloud를 활용한 Multi Module) <br/><br/>
+          - 다수의 CMS RestAPI 리팩토링 진행중 (각각 구성된 프로젝트 -> Spring Cloud를 활용한 Multi Module)
+          <br/>
 
       - layout: left
         title: (주)머니투데이
@@ -89,7 +90,8 @@ content:
           - GitLab, AWS 환경에서 무중단 배포 및 운영 시스템 구축
           - 사이트 유지보수 및 신규 기능 개발 (머니투데이, 스타뉴스 등)
           - Mysql RDB 성능 튜닝 및 장애 대응 
-          - 2년 연속 <mark>인사고과 A</mark> 취득 <br/><br/>
+          - 2년 연속 <mark>인사고과 A</mark> 취득
+          <br/>
 
       - layout: left
         title: (주)경향신문사
@@ -102,9 +104,58 @@ content:
           - 신규 웹 서비스 개발 진행 (2020 도쿄 올림픽, 정동문화축제, 경향 뮤지컬 콩쿠르, 금융감독원 열린경제 등)
           - 사용자 맞춤형 기사 추천 서비스 설계 및 개발
           - 사이트 유지보수 및 신규 기능 개발 (경향신문, 비즈경향, 스포츠경향, 주간경향, 레이디경향 등)
-          - Redis 서버 다운시 캐싱 미적용 문제를 해결하기 위해 CDN을 사용한 Json 캐싱 구현 <br/><br/><br/>
+          - Redis 서버 다운시 캐싱 미적용 문제를 해결하기 위해 CDN을 사용한 Json 캐싱 구현
+          <br/><br/>
 
-  - title: Education
+  - title: Skills
+    layout: list
+    content:
+      - layout: left
+        title: BackEnd
+        sub_title:
+        caption:
+        link:
+        quote: >
+          Backend 프로덕션 서비스를 설계와 개발 및 운영하며 사용중이거나 사용했던 기술들입니다.
+        description: | # this will include new lines to allow paragraphs
+          - Language : PHP, JAVA, NodeJS
+          - FrameWork : Laravel, Spring Boot, CodeIgniter
+          - ORM : EloquentORM, QueryBuilder, JPA, QueryDSL, Hibernate 
+          - PackageManager : Composer, Gradle                  
+          <br/>
+
+      - layout: left
+        title: DevOps
+        sub_title:
+        caption:
+        link:
+        quote: >
+          웹 및 앱 어플리케이션 프로덕션 서비스를 설계와 개발 및 운영하며 사용중이거나 사용했던 기술들입니다.
+        description: | # this will include new lines to allow paragraphs                              
+          - DB : Mysql, MariaDB, Redis, MongoDB
+          - WebServer : Apache, Nginx, Tomcat, Netty
+          - RemoteRepository : GitHub, GitLab, SourceCommit
+          - Cloud : AWS, NCP
+          - OS : Linux (CentOS, RedHat, Ubuntu)
+          - CI/CD : GitLab Runner, Aws CodeDeploy, Ncp SourcePipeLine, Jenkins
+          - ETC : Docker, RabbitMQ, Kafka          
+          <br/>
+
+      - layout: left
+        title: FrontEnd
+        sub_title:
+        caption:
+        link:
+        quote: >
+          Front 어플리케이션 프로덕션 서비스를 설계와 개발 및 운영하며 사용중이거나 사용했던 기술들입니다.
+        description: | # this will include new lines to allow paragraphs                              
+          - Language : JavaScript, Swift
+          - FrameWork : NextJs, SwiftUI
+          - Library : JQuery, ReactJS, VueJS
+          - PackageManager : Npm, Yarn, CocoaPods
+          <br/><br/>
+
+  - title: Education & Certificate
     layout: list
     content:
       - layout: left
@@ -112,10 +163,11 @@ content:
         sub_title: 한국방송통신대학교 (졸업)
         caption: 2018.09 ~ 2021.08
         quote: >
-          입학하기는 쉽지만 졸업하기는 하버드 뺨 때린다는 전설의 대학교
+          입학하기는 쉽지만 졸업률 극악의 자기주도학습형 대학교
         description: | # this will include new lines to allow paragraphs
           컴퓨터 과학과
-          <br/><br/>
+          <br/>
+
       - layout: left
         title: 전문학사
         sub_title: 서일대학교 (중퇴)
@@ -124,13 +176,34 @@ content:
           서울특별시 중랑구에 위치한 2,3년제 전문 대학
         description: | # this will include new lines to allow paragraphs
           소프트웨어 공학과
+          <br/>
 
-#  - title: A Little More About Me
-#    layout: text
-#    content: | # this will include new lines to allow paragraphs
-#      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-#
-#      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      - layout: left
+        title: 정보처리기사 취득
+        sub_title: 한국산업인력공단
+        caption: 2024.09
+        quote: >
+
+        description: | # this will include new lines to allow paragraphs
+          <br/>
+
+      - layout: left
+        title: SQL 개발자 취득
+        sub_title: 한국데이터베이스진흥협회
+        caption: 2024.04
+        quote: >
+
+        description: | # this will include new lines to allow paragraphs
+          <br/>
+
+      - layout: left
+        title: 네트워크관리사 2급 취득
+        sub_title: 한국정보통신자격협회
+        caption: 2021.07
+        quote: >
+
+        description: | # this will include new lines to allow paragraphs
+          <br/><br/>
 
 #  - title: Projects # Title for the section
 #    layout: list # Type of content section (list/text)
@@ -156,7 +229,7 @@ content:
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
+references_title: Last Updated At 2024.11.02
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
