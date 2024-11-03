@@ -16,7 +16,7 @@ website: https://min-nine.tistory.com
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: never
 
 # Social links
 twitter_username:
@@ -50,7 +50,7 @@ googlescholar_username:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: /images/profile.jpg
+about_profile_image: /images/profile.png
 about_content: | # this will include new lines to allow paragraphs
   웹/앱 서비스 백엔드 개발 및 언론 도메인 개발자로서의 다양한 경험이 있습니다. PHP, Java, Laravel, SpringBoot, MySQL, Redis, RabbitMQ, AWS, NCP, Git, Linux, Docker 등을 사용하여 프로덕션 서비스를 설계, 개발, 운영한 경험으로 확장성과 유지 보수성이 높은 백엔드 아키텍처와 패턴, 비지니스 로직 작성을 위해 언제나 고민하고 있습니다.
   <br/><br/>
