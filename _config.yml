@@ -257,6 +257,7 @@ content:
           <br/>
 
       - layout: left
+        border: weak
         title: 주식명가 MTNWPLUS
         sub_title:
         caption:
@@ -335,6 +336,7 @@ content:
           <br/>
 
       - layout: left
+        border: weak
         title: 재단법인 한국기업가정신
         sub_title:
         caption:
