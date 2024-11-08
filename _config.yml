@@ -75,7 +75,8 @@ content:
         description: | # this will include new lines to allow paragraphs
           - 조회수 측정 데이터의 결점을 파악하여 데이터 무결성을 위한 뉴스 조회수 기능 개선 (RDB -> Redis & Batch)
           - 주식 방송 서비스 고도화 진행중 (Legacy PHP -> Spring Boot & NodeJS)
-          - 다수의 CMS RestAPI 리팩토링 진행중 (각각 구성된 프로젝트 -> Spring Cloud를 활용한 Multi Module)
+          - 다수의 CMS RestAPI 리팩토링 진행중 (각각 구성된 프로젝트 -> Spring Cloud, Multi Module 활용한 MSA 전환)
+          - **RDB Query Tuning** (매 새벽 아무도 모르게 동작하던 엄청난 수의 JPA n+1 query -> bulk & batch 전환 등)
           <br/>
 
       - layout: left
